@@ -1,0 +1,22 @@
+{
+    "model":"vits",
+    "formatter": "ljspeech",
+    "output_path": "./output-model",
+    "datasets": [
+        {
+            "name": "my_voice",
+            "path": "my-voice-dataset"
+        }
+    ],
+    "batch_size": 16,
+    "eval_batch_size": 16,
+    "num_loader_workers": 2,
+    "num_eval_loader_workers": 1,
+    "run_eval": true,
+    "test_delay_epochs": 1,
+    "epochs": 50,
+    "text_cleaner": "english_cleaners",
+    "use_phonemes": false,
+    "phoneme_language": "en",
+    "pretrained_model_path": "/Users/rj/Library/Application Support/tts/tts_models--en--ljspeech--vits/"
+}
