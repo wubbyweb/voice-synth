@@ -1,11 +1,13 @@
 {
     "model":"vits",
-    "formatter": "ljspeech",
     "output_path": "./output-model",
     "datasets": [
         {
             "name": "my_voice",
-            "path": "my-voice-dataset"
+            "path": "/Users/rj/Programs/voice-synth/my-voice-dataset/wavs",
+            "meta_file_train": "/Users/rj/Programs/voice-synth/my-voice-dataset/metadata.csv",
+            "formatter": "ljspeech",
+            "eval_split_size": 1.0
         }
     ],
     "batch_size": 16,
