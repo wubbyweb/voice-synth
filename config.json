@@ -5,7 +5,7 @@
         {
             "name": "my_voice",
             "path": "/Users/rj/Programs/voice-synth/my-voice-dataset/wavs",
-            "meta_file_train": "/Users/rj/Programs/voice-synth/my-voice-dataset/metadata.csv",
+            "meta_file_train": "/Users/rj/Programs/voice-synth/my-voice-dataset/metadata.txt",
             "formatter": "ljspeech"
             
         }
